@@ -1,0 +1,6 @@
+{
+  "kind": "SignalLock immutable packaged release identity",
+  "release_id": "signallock-v0.12.4-hackathon-final",
+  "source_commit": null,
+  "runtime_tree_sha256": "f1fa4265d05486cbc3ede7076b13d9a991856016c279bf5b36f7be0f102ae39f"
+}

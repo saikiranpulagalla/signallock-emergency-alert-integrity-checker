@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signallock-ai"
+version = "0.12.4"
+description = "Protective-action integrity verification for AI-transformed emergency alerts"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.128,<1",
+  "uvicorn>=0.48,<1",
+  "pydantic>=2.13,<3",
+  "httpx>=0.28,<1",
+  "defusedxml>=0.7,<1",
+  "packaging>=24,<27",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10", "pytest-asyncio>=1,<2"]
+adaption = ["adaption>=0"]
+
+[tool.setuptools.packages.find]
+include = ["signallock*", "apps*"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+pythonpath = ["."]
