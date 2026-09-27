@@ -201,9 +201,9 @@ docs/images/           Rendered v0.12.4 screenshots
 ```
 
 - [Safety validation](VALIDATION.md): regression, adversarial evidence, and qualification limits.
-- [Submission narrative](HACKATHON_SUBMISSION.md): hackathon context and ready-to-adapt copy.
-- [Demo script](DEMO_SCRIPT.md) and [screenshot capture](SCREENSHOT_CAPTURE.md): reproduce the presentation.
-- [Final release report](FINAL_RELEASE_REPORT.md): artifact identity and preserved audit history.
+- [Submission narrative](docs/HACKATHON_SUBMISSION.md): hackathon context and ready-to-adapt copy.
+- [Demo script](docs/DEMO_SCRIPT.md) and [screenshot capture](docs/SCREENSHOT_CAPTURE.md): reproduce the presentation.
+- [Final release report](docs/FINAL_RELEASE_REPORT.md): artifact identity and preserved audit history.
 
 ## Release and license
 

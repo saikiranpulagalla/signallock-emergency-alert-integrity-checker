@@ -15,6 +15,7 @@ dist/
 Thumbs.db
 data/results/*.json
 !data/results/.gitkeep
+data/dev/adaption_alerts.csv
 
 # V7 human-review / hidden-holdout artifacts are generated after runtime freeze.
 data/holdout/
